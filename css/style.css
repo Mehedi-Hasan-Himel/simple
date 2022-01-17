@@ -11,8 +11,82 @@ body{
    font-size: 14px;
    line-height: 22px;
 }
+.area{
+   width: 1000px;
+   margin: 0 auto;
+}
+ul{
+   list-style: none;
+}
+a{
+   text-decoration: none;
+}
 /* *****************************
 Universal Code End
 ****************************
 */
 
+
+/*
+*************************
+Header Code Start
+*************************
+*/
+.fix::before, .fix::after{
+   content: "";
+   display: table;
+   clear: both;
+}
+
+img{
+   width: 100%;
+}
+.header{
+   background-color: #ddd;
+   padding: 20px 10px;
+}
+.logo{
+   float: left;
+   width: 30%;
+   margin-right: 5%;
+}
+.logo a{
+   
+}
+.logo a img{
+
+}
+.menu{
+   float: right;
+   width: 65%;
+}
+.menu ul{
+   text-align: right;
+   margin-top: 14px;
+}
+.menu ul li{
+   display: inline-block;
+}
+.menu ul li a{
+   color: #333;
+   padding: 10px 15px;
+   display: block;
+   font-size: 20px;
+   transition: .3s;
+} 
+.menu ul li a:hover{
+   background-color: tomato;
+   color: white;
+}
+/* 
+****************************
+Header Code End
+****************************
+*/
+
+.banner{
+
+}
+.banner img{
+
+} 

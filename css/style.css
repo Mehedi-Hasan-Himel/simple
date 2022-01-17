@@ -34,6 +34,7 @@ a {
   font-size: 20px;
   margin-top: 20px;
   transition: 0.3s;
+  font-style: italic;
 }
 .btn:hover {
   background-color: #ff7720;

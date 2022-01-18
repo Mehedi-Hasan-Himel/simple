@@ -120,6 +120,7 @@ Services Code Start
   padding: 20px;
   color: #fff;
 }
+
 .single__service:last-child {
   margin-right: 0;
 }
@@ -248,17 +249,18 @@ About Page Code End
 ************************************************************************************
 */
 
-
 /* 
 ************************************************************************************
 Service Page Code Start
 ************************************************************************************
 */
 
-.service__page, .single__service:nth-child(4){
+.service__page,
+.single__service:nth-child(4) {
   margin-right: 0;
 }
-.service__page, .single__service{
+.service__page,
+.single__service {
   display: flex;
   display: inline;
   width: 227px;
@@ -268,5 +270,40 @@ Service Page Code Start
 /* 
 ************************************************************************************
 Service Page Code End
+************************************************************************************
+*/
+
+
+/* 
+************************************************************************************
+Gallery Page Code Start
+************************************************************************************
+*/
+
+.gallerys{
+
+}
+.gallery{
+
+}
+.single-gallery{
+  float: left;
+  width: 227px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.single-gallery:nth-child(4), .single-gallery:last-child{
+  margin-right: 0;
+}
+.single-gallery iframe{
+  width: 100%;
+  border: 1px solid #ddd;
+  padding: 3px;
+}
+
+
+/* 
+************************************************************************************
+Gallery Page Code End
 ************************************************************************************
 */

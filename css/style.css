@@ -217,14 +217,14 @@ About Page Code Start
 ************************************************************************************
 */
 
-.about-banner {
+.page-banner {
   background-size: cover;
   background-position: center;
   padding: 110px 0;
   position: relative;
   z-index: 2;
 }
-.about-banner::before {
+.page-banner::before {
   content: "";
   position: absolute;
   width: 100%;
@@ -235,7 +235,7 @@ About Page Code Start
   opacity: 0.7;
   z-index: -1;
 }
-.about-banner h2 {
+.page-banner h2 {
   text-align: center;
   color: #fff;
   text-transform: capitalize;

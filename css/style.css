@@ -74,10 +74,6 @@ img {
   width: 30%;
   margin-right: 5%;
 }
-.logo a {
-}
-.logo a img {
-}
 .menu {
   float: right;
   width: 65%;
@@ -111,16 +107,10 @@ Header Code End
 Services Code Start
 ****************************
 */
-.services {
-}
-.title {
-}
 .title h4 {
   text-align: center;
   font-size: 40px;
   margin: 40px 0;
-}
-.service {
 }
 .single__service {
   background-color: teal;
@@ -139,12 +129,6 @@ Services Code Start
   text-transform: capitalize;
   margin-bottom: 24px;
 }
-.single__services img {
-}
-.single__services p {
-}
-.single__services a {
-}
 /* 
 ****************************
 Services Code End
@@ -158,51 +142,44 @@ About Code Start
 */
 
 .about {
-   padding: 60px 0;
+  padding: 60px 0;
 }
-.about-left{
-   float: left;
-   width: 70%;
-   margin-right: 5%;
+.about-left {
+  float: left;
+  width: 70%;
+  margin-right: 5%;
 }
-.about-left h4{
-   text-transform: capitalize;
-   font-size: 35px;
-   margin-bottom: 18px;
-
+.about-left h4 {
+  text-transform: capitalize;
+  font-size: 35px;
+  margin-bottom: 18px;
 }
-.about-left p{
-   margin-bottom: 10px;
+.about-left p {
+  margin-bottom: 10px;
 }
-.about-menu{
-   float: right;
-   width: 25%;
+.about-menu {
+  float: right;
+  width: 25%;
 }
-.about-menu h4{
-
+.about-menu ul li {
+  background-image: url(../img/arrow.png);
+  background-repeat: no-repeat;
+  background-position: -7px 1px;
+  padding-left: 22px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
 }
-.about-menu ul{
-
+.about-menu ul li:last-child {
+  border-bottom: 0;
 }
-.about-menu ul li{
-   background-image: url(../img/arrow.png);
-   background-repeat: no-repeat;
-   background-position: -7px 1px ;
-   padding-left: 22px;
-   margin-bottom: 10px;
-   padding-bottom: 10px;
-   border-bottom: 1px solid #ddd;
+.about-menu ul li a {
+  font-size: 20px;
+  display: block;
+  transition: 0.3s;
 }
-.about-menu ul li:last-child{
-   border-bottom: 0;
-}
-.about-menu ul li a{
-   font-size: 20px;
-   display: block;
-   transition: .3s;
-}
-.about-menu ul li a:hover{
-   color: tomato;
+.about-menu ul li a:hover {
+  color: tomato;
 }
 /* 
 ****************************
@@ -210,24 +187,22 @@ About Code End
 ****************************
 */
 
-
-
 /* 
 ****************************
 Footer Code Start
 ****************************
 */
 
-footer{
-   text-align: center;
-   background-color: teal;
-   padding: 20px;
+footer {
+  text-align: center;
+  background-color: teal;
+  padding: 20px;
 }
-.footer p{
-   color: #fff;
-   text-transform: capitalize;
-   font-size: 22px;
-   font-weight: bold;
+.footer p {
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 22px;
+  font-weight: bold;
 }
 
 /* 

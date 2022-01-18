@@ -8,8 +8,13 @@ Universal Code Start
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-h1,h2,h3,h4,h5,h6{
-   font-family: 'Ubuntu', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Ubuntu", sans-serif;
 }
 body {
   font-size: 14px;
@@ -24,6 +29,7 @@ ul {
 }
 a {
   text-decoration: none;
+  color: #333;
 }
 .btn {
   background-color: tomato;
@@ -105,7 +111,6 @@ Header Code End
 Services Code Start
 ****************************
 */
-
 .services {
 }
 .title {
@@ -140,9 +145,93 @@ Services Code Start
 }
 .single__services a {
 }
-
 /* 
 ****************************
 Services Code End
+****************************
+*/
+
+/* 
+****************************
+About Code Start
+****************************
+*/
+
+.about {
+   padding: 60px 0;
+}
+.about-left{
+   float: left;
+   width: 70%;
+   margin-right: 5%;
+}
+.about-left h4{
+   text-transform: capitalize;
+   font-size: 35px;
+   margin-bottom: 18px;
+
+}
+.about-left p{
+   margin-bottom: 10px;
+}
+.about-menu{
+   float: right;
+   width: 25%;
+}
+.about-menu h4{
+
+}
+.about-menu ul{
+
+}
+.about-menu ul li{
+   background-image: url(../img/arrow.png);
+   background-repeat: no-repeat;
+   background-position: -7px 1px ;
+   padding-left: 22px;
+   margin-bottom: 10px;
+   padding-bottom: 10px;
+   border-bottom: 1px solid #ddd;
+}
+.about-menu ul li:last-child{
+   border-bottom: 0;
+}
+.about-menu ul li a{
+   font-size: 20px;
+   display: block;
+   transition: .3s;
+}
+.about-menu ul li a:hover{
+   color: tomato;
+}
+/* 
+****************************
+About Code End
+****************************
+*/
+
+
+
+/* 
+****************************
+Footer Code Start
+****************************
+*/
+
+footer{
+   text-align: center;
+   background-color: teal;
+   padding: 20px;
+}
+.footer p{
+   color: #fff;
+   text-transform: capitalize;
+   font-size: 22px;
+   font-weight: bold;
+}
+
+/* 
+****************************
+Footer Code End
 ****************************
 */

@@ -20,13 +20,21 @@
   .single__service:last-child {
     margin-right: 30px;
   }
-  .single-gallery{
-   width: 220px;
+  .single-gallery {
+    width: 220px;
   }
   .about-left h4,
   .about-menu h4 {
     font-size: 26px;
     margin-bottom: 20px;
+  }
+  .contact-form {
+    width: 610px;
+  }
+  .contact-form h4,
+  .contact-address h4 {
+    font-size: 30px;
+    margin-bottom: 35px;
   }
 }
 /*
@@ -53,6 +61,29 @@
   .menu ul {
     top: 0;
   }
+  .contact-address {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .contact-form h4 {
+    font-size: 30px;
+  }
+  .contact-address h4 {
+    font-size: 30px;
+  }
+  .single-gallery {
+    width: 165px;
+  }
+   .services, .single__service{
+      width: 240px;
+      float: left;
+   }
+  .services, .single__service:nth-child(3),.services, .single__service:nth-child(6),.services, .single__service:nth-child(9){
+   margin-right: 0;
+  }
+ .services, .single__service:nth-child(4) {
+   margin-right: 15px;
+ } 
 }
 /*
 *****************************
@@ -61,6 +92,22 @@
 */
 
 /* Breaking point 400px start */
+@media screen and (min-width: 400px) and (max-width: 767px) {
+  .area {
+    width: 450px;
+  }
+  .single-gallery {
+    width: 100%;
+    line-height: 50px;
+  }
+  .page-banner h2{
+     line-height: 45px;
+  }
+  .contact-form{
+     width: 100%;
+     margin-top: 30px;
+  }
+}
 @media only screen and (max-width: 767px) {
   .area {
     width: 320px;
@@ -95,11 +142,10 @@
     font-size: 22px;
     margin-bottom: 10px;
   }
+  .services .single__service{
+     width: 100%;
+  }
 }
 /* Breaking point 400px End */
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
-  .area {
-    width: 450px;
-  }
-}
+

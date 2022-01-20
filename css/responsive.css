@@ -155,5 +155,9 @@
   .page-banner h2 {
     line-height: 45px;
   }
+  .logo{
+     width: 90%;
+     margin: 5%;
+  }
 }
 /* Breaking point 400px End */

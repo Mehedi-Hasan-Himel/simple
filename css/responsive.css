@@ -1,0 +1,105 @@
+/*
+*****************************
+ Breaking Point 1000px Start
+*****************************
+*/
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .area {
+    width: 970px;
+  }
+  .menu {
+    width: 650px;
+  }
+  .single__service {
+    width: 303px;
+  }
+  .single__service {
+    width: 293px;
+  }
+  .single__service:nth-child(4),
+  .single__service:last-child {
+    margin-right: 30px;
+  }
+  .single-gallery{
+   width: 220px;
+  }
+  .about-left h4,
+  .about-menu h4 {
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+}
+/*
+*****************************
+ Breaking Point 1000px End
+*****************************
+*/
+
+/*
+*****************************
+ Breaking Point 800px Start
+*****************************
+*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .area {
+    width: 750px;
+  }
+  .logo {
+    width: 200px;
+  }
+  .menu {
+    width: 80%;
+  }
+  .menu ul {
+    top: 0;
+  }
+}
+/*
+*****************************
+ Breaking Point 800px End
+*****************************
+*/
+
+/* Breaking point 400px start */
+@media only screen and (max-width: 767px) {
+  .area {
+    width: 320px;
+  }
+  .menu,
+  .about-left,
+  .about-menu {
+    width: 100%;
+  }
+  .about-left {
+    margin-bottom: 30px;
+  }
+  .about-left h4,
+  .about-menu h4 {
+    text-transform: capitalize;
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  .menu ul {
+    text-align: left;
+  }
+  .title h4 {
+    font-size: 28px;
+    margin: 25px 0;
+  }
+  .single__service {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .about-left h4,
+  .about-menu h4 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+}
+/* Breaking point 400px End */
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .area {
+    width: 450px;
+  }
+}

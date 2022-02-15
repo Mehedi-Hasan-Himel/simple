@@ -5,11 +5,9 @@ Universal Code Start
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-
 h1,
 h2,
 h3,
@@ -18,26 +16,21 @@ h5,
 h6 {
   font-family: "Ubuntu", sans-serif;
 }
-
 body {
   font-size: 14px;
   line-height: 22px;
 }
-
 .area {
   width: 1000px;
   margin: 0 auto;
 }
-
 ul {
   list-style: none;
 }
-
 a {
   text-decoration: none;
   color: #333;
 }
-
 .btn {
   background-color: tomato;
   display: inline-block;
@@ -46,19 +39,17 @@ a {
   color: #fff;
   font-size: 20px;
   margin-top: 20px;
-  -webkit-transition: 0.3s;
   transition: 0.3s;
   font-style: italic;
 }
-
 .btn:hover {
   background-color: #ff7720;
 }
-
 /* *****************************
 Universal Code End
 ****************************
 */
+
 /*
 *************************
 Header Code Start
@@ -67,68 +58,57 @@ Header Code Start
 .header__area {
   background-color: #ddd;
 }
-
 .fix::before,
 .fix::after {
   content: "";
   display: table;
   clear: both;
 }
-
 /* Banner Area Start */
 .banner__area {
   background-color: antiquewhite;
 }
-
 /* Banner Area End */
 img {
   width: 100%;
 }
-
 .header {
   background-color: #ddd;
   padding: 20px 0;
 }
-
 .logo {
   float: left;
   width: 20%;
   margin-right: 3%;
 }
-
 .menu {
   float: right;
   width: 65%;
 }
-
 .menu ul {
   text-align: right;
   margin-top: 14px;
 }
-
 .menu ul li {
   display: inline-block;
 }
-
 .menu ul li a {
   color: #333;
   padding: 10px 15px;
   display: block;
   font-size: 20px;
-  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
-
 .menu ul li a:hover {
   background-color: tomato;
   color: white;
 }
-
 /* 
 ****************************
 Header Code End
 ****************************
 */
+
 /* 
 ****************************
 Services Code Start
@@ -137,7 +117,6 @@ Services Code Start
 .banner img {
   vertical-align: middle;
 }
-
 .title h4 {
   text-align: center;
   font-size: 40px;
@@ -145,14 +124,12 @@ Services Code Start
   color: whitesmoke;
   margin-bottom: 40px;
 }
-
 .services__area {
   background-image: url(../img/about-banner.jpg);
   background-size: cover;
   background-position: center;
   padding: 60px 0;
 }
-
 .single__service {
   background-color: teal;
   float: left;
@@ -165,49 +142,44 @@ Services Code Start
 .single__service:last-child {
   margin-right: 0;
 }
-
 .single__service h4 {
   text-align: center;
   font-size: 30px;
   text-transform: capitalize;
   margin-bottom: 24px;
 }
-
 /* 
 ****************************
 Services Code End
 ****************************
 */
+
 /* 
 ****************************
 About Code Start
 ****************************
 */
+
 .about {
   padding: 60px 0;
 }
-
 .about-left {
   float: left;
   width: 70%;
   margin-right: 5%;
 }
-
 .about-left h4 {
   text-transform: capitalize;
   font-size: 35px;
   margin-bottom: 18px;
 }
-
 .about-left p {
   margin-bottom: 10px;
 }
-
 .about-menu {
   float: right;
   width: 25%;
 }
-
 .about-menu ul li {
   background-image: url(../img/arrow.png);
   background-repeat: no-repeat;
@@ -217,27 +189,23 @@ About Code Start
   padding-bottom: 10px;
   border-bottom: 1px solid #ddd;
 }
-
 .about-menu ul li:last-child {
   border-bottom: 0;
 }
-
 .about-menu ul li a {
   font-size: 20px;
   display: block;
-  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
-
 .about-menu ul li a:hover {
   color: tomato;
 }
-
 /* 
 ****************************
 About Code End
 ****************************
 */
+
 /* 
 ****************************
 Footer Code Start
@@ -246,12 +214,10 @@ Footer Code Start
 .footer__area {
   background-color: teal;
 }
-
 footer {
   text-align: center;
   padding: 20px;
 }
-
 .footer p {
   color: #fff;
   text-transform: capitalize;
@@ -264,6 +230,7 @@ footer {
 Footer Code End
 ****************************
 */
+
 /* 
 ****************************
 About Page Code Start
@@ -276,7 +243,6 @@ About Page Code Start
   position: relative;
   z-index: 2;
 }
-
 .page-banner::before {
   content: "";
   position: absolute;
@@ -288,7 +254,6 @@ About Page Code Start
   opacity: 0.7;
   z-index: -1;
 }
-
 .page-banner h2 {
   text-align: center;
   color: #fff;
@@ -301,20 +266,19 @@ About Page Code Start
 About Page Code End
 ********************************
 */
+
 /* 
 *******************************
 Service Page Code Start
 *******************************
 */
+
 .service__page,
 .single__service:nth-child(4) {
   margin-right: 0;
 }
-
 .service__page,
 .single__service {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   display: inline;
   width: 227px;
@@ -326,23 +290,23 @@ Service Page Code Start
 Service Page Code End
 ***************************
 */
+
 /* 
 **************************
 Gallery Page Code Start
 *************************
 */
+
 .single-gallery {
   float: left;
   width: 227px;
   margin-right: 30px;
   margin-bottom: 30px;
 }
-
 .single-gallery:nth-child(4),
 .single-gallery:last-child {
   margin-right: 0;
 }
-
 .single-gallery iframe {
   width: 100%;
   border: 1px solid #ddd;
@@ -354,26 +318,25 @@ Gallery Page Code Start
 Gallery Page Code End
 **************************
 */
+
 /* 
 **************************
 Contact Page Code Start
 **************************
 */
+
 .contact {
   padding: 40px 0;
 }
-
 .contact-form {
   float: left;
   width: 670px;
   margin-right: 30px;
 }
-
 .contact-address {
   float: right;
   width: 300px;
 }
-
 .contact-form h4,
 .contact-address h4 {
   text-transform: capitalize;
@@ -387,7 +350,6 @@ Contact Page Code Start
   padding: 10px;
   margin-bottom: 20px;
 }
-
 .contact-form textarea {
   width: 100%;
   border: 1px solid #ddd;
@@ -402,7 +364,6 @@ Contact Page Code Start
   margin-bottom: 10px;
   font-size: 20px;
 }
-
 .map iframe {
   width: 100%;
   height: 300px;
@@ -415,11 +376,13 @@ Contact Page Code Start
 Contact Page Code End
 ***************************
 */
+
 /*
 ***************************
  Responsive Design Start 
 ***************************
 */
+
 /*
 *****************************
  Breaking Point 1000px Start
@@ -459,12 +422,12 @@ Contact Page Code End
     margin-bottom: 35px;
   }
 }
-
 /*
 *****************************
  Breaking Point 1000px End
 *****************************
 */
+
 /*
 *****************************
  Breaking Point 800px Start
@@ -514,12 +477,12 @@ Contact Page Code End
     margin-right: 15px;
   }
 }
-
 /*
 *****************************
  Breaking Point 800px End
 *****************************
 */
+
 /* Breaking point 400px start */
 @media screen and (min-width: 400px) and (max-width: 767px) {
   .area {
@@ -537,7 +500,6 @@ Contact Page Code End
     margin-top: 30px;
   }
 }
-
 @media only screen and (max-width: 767px) {
   .area {
     width: 320px;
@@ -583,11 +545,10 @@ Contact Page Code End
     margin: 5%;
   }
 }
-
 /* Breaking point 400px End */
+
 /*
 ***************************
  Responsive Design End 
 ***************************
 */
-/*# sourceMappingURL=style.css.map */
